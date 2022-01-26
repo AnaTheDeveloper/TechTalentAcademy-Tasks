@@ -58,7 +58,7 @@ print(
 
 for x in range(2000, 900, -100):
 
-    print("The mototbike is now: ", x)
+    print("The motorbike is now: ", x)
 
     if x <= 1000:
         print("The motorbike has reached the lowest price possible.")
