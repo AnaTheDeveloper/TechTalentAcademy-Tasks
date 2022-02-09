@@ -1,7 +1,6 @@
 # Task 1
 # Write a program that allows you to enter 4 numbers
-# and stores them in a file called “Numbers”
-# 3, 45, 83, 21
+# and stores them in a file called “Numbers” - 3, 45, 83, 21
 
 def files():
 
