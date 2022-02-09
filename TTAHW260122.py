@@ -115,4 +115,3 @@ if __name__ == '__main__':
 
     hardcoded_calculator(230, 25)
 
-
