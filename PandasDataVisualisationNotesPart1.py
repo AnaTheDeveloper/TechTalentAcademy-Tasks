@@ -35,10 +35,6 @@ if __name__ == '__main__':
     # Everything is rotated counter-clockwise by 90 degrees: startangle=90
     # Rotate Text: rotation=45
 
-
-
-
-
     # Scatter graph
     gdp_cal = pd.DataFrame({
         'GDP_growth': [6.1, 5.8, 5.7, 5.7, 5.8, 5.6, 5.5, 5.3, 5.2, 5.2],
