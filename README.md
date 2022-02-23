@@ -1,5 +1,21 @@
 # TechTalentAcademy-Tasks
 
+During this bootcamp these are the following objectives:
+
+* Fundamental understanding of Python and various industry-standard libraries.
+* Apply algorithms to build machine intelligence.
+* Using data visualisation techniques through R.
+* Recognise and analyse ethical issues of cloud computing, data security and artificial intelligence.
+* Demonstrate knowledge of statistical data analysis techniques through data analysis.
+* Apply principles of Data Science to analyse problems.
+* Use data mining techniques to solve real-world problems.
+* Developing databases suitable for containing big data by using SQL.
+* Developing teamwork, leadership and decision making/problem-solving skills.
+
+**See below for the weekly tasks and updates**
+
+**Week 1 Introduction Session**
+
 **Week 2 Tasks - Completed**
 
 **Week 3 Tasks - Completed**
