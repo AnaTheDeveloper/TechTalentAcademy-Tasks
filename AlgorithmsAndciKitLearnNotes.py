@@ -40,6 +40,8 @@
 # 5. Algorithms used in Machine Learning
 
 # Regression Algorithms (Linear, Polynomial, Logistic)
+# Regression is a process of finding the correlations between dependent and independent variables. It helps predict the
+# continuous variables such as prediction of Market Trends and the prediction of House prices for example.
 # Classification Algorithms (K-Nearest Neighbour, Decision Trees)
 # Clustering Algorithms (K-Means, Hierarchical)
 # Association
