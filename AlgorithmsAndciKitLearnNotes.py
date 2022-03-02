@@ -180,3 +180,92 @@
 # - test_size: the proportion of the dataset to include in the test split
 # - random_state: the seed used by the random number generator [optional]
 
+#------------------------K-Means Example------------------------
+
+from sklearn.cluster import KMeans
+from sklearn         import datasets
+import numpy             as np
+import matplotlib.pyplot as plt
+
+if __name__ == '__main__':
+
+    # Load in dataset.
+    iris = datasets.load_iris()
+    # See the info in the dataset. EDA Data.
+    print("The dataset keys: ", iris.keys())
+    # print(iris.target_names)
+    # print(iris.feature_names)
+    # print(iris.data)
+    # print(iris.target)
+    # print(iris.DESCR)
+
+    # Assigning data to x and y axis
+
+    X = iris.data
+    y = iris.target
+
+    print("Iris data shape is:", X.shape)
+    print("Iris target shape is:", y.shape)
+    print("Iris different groups:", len(np.unique(y)))
+
+    # Reusable Procedures
+
+    def plot_clusters(data, idx1, idx2, y=None, ):
+        """
+           idx1: Represents the X axis feature
+           idx2: Represents the y axis Feature
+           y: Represents the values to assign colour with
+        """
+        plt.scatter(data[:, idx1], data[:, idx2], c=y)
+        plt.show()
+
+
+    def plot_centroids(centroids, circle_color='w', cross_color='k'):
+        plt.scatter(centroids[:, idx1], centroids[:, idx2],
+                    marker='o', s=30, linewidths=20,
+                    color=circle_color, zorder=10, alpha=0.9)
+        plt.scatter(centroids[:, idx1], centroids[:, idx2],
+                    marker='x', s=5, linewidths=20,
+                    color=cross_color, zorder=11, alpha=1)
+
+
+    def plot_clusters_labels(data, idx1, idx2, y=None):
+        plt.scatter(data[:, idx1], data[:, idx2], c=y_pred)
+        plot_centroids(kmeans.cluster_centers_)
+        plt.show()
+
+    # Assigning feature to use
+    idx1 = 0
+    idx2 = 1
+
+    plot_clusters(X, idx1, idx2)
+
+    #  Data Coloured to the Target Labels (Ground Truth)
+
+    # Ground Truth
+    plot_clusters(X, idx1, idx2, y)
+
+    # Creating the K Means Model
+    # Assigning the Value of K (The number of Clusters)
+    k = 3
+
+    # Fitting the model
+
+    # Instanciating the model
+    kmeans = KMeans(n_clusters=k)
+    # The Creating the Predictions
+    y_pred = kmeans.fit_predict(X)
+
+    # K-Means Prediction Results of the Iris Dataset
+    # Kmeans Prediction
+    plot_clusters(X, idx1, idx2, y_pred)
+
+    # Displaying the Cluster Centroids
+    plot_clusters_labels(X, idx1, idx2)
+
+    ax = plt.axes(projection='3d')
+
+    zdata = X[:, 3]
+    xdata = X[:, idx1]
+    ydata = X[:, idx2]
+    ax.scatter3D(xdata, ydata, zdata, c=y_pred);
