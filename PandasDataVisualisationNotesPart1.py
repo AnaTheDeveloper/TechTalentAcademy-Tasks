@@ -179,30 +179,3 @@ if __name__ == '__main__':
 
     plt.xlim(0, len(tick_pos) + 1)
     plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
