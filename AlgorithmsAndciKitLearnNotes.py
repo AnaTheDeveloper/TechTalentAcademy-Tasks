@@ -52,7 +52,7 @@
 # 1. Frame the problem and look at the big picture
 # 2. Get the data
 # 3. Explore the data
-# 4. Prepare the data to better expose the underlying data patterns to machine learning algorithms
+# 4. Prepare the data to better expose the underlying data patterns to machine learning algorithms(Exploratory Data Analysis)
 # 5. Explore many models and shortlist the best ones
 # 6. Fine tune your models and combine them into a great solution
 # 7. Present your solution
@@ -73,6 +73,8 @@
 
 # Scikit-learn is a library in Python that provides many unsupervised and supervised learning algorithms.
 # It’s built upon some of the technology you might already be familiar with, like NumPy, pandas, and Matplotlib!
+# Developed by Google and released in 2010.
+# Built on SciPy
 
 # ------------------------------------------------- Linear Regression --------------------------------------------
 # When we are trying to find a line that fits a set of data best, we are performing Linear Regression.
