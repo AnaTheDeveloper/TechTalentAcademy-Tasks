@@ -46,7 +46,7 @@ Whilst completing the Data Visualisation section I initially struggled to displa
 * Task 1 - Create a Dashboard using Tableau
 Please see link to interactive dashbaord on Tableau: https://public.tableau.com/app/profile/ana.edwards/viz/ProfitBashboardTTAHW/ProfitDashboard?publish=yes
 
-**Week 8 Algorithms & SciKit - [In Progress]**
+**Week 8 Algorithms & SciKit - [Completed]**
 
 **Week 9 Deep Learning and AI - [Session Due]**
 
