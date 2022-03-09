@@ -51,5 +51,32 @@ Please see link to interactive dashbaord on Tableau: https://public.tableau.com/
 * Extension Task 2 - Linear Regression With Two Variables Graph.
 ![Linear Regression with two variables Example Graph](https://user-images.githubusercontent.com/76181662/157479591-c60181ff-028a-4194-b0a8-ae864eba3f2a.jpg)
 
-**Week 9 Deep Learning and AI - [Session Due]**
+**Week 9 Deep Learning and AI - [tASK 1 COMPLETED]**
 
+* Please see link for 500 word essay on Responsible AI: https://docs.google.com/document/d/1pf6u9zN_R1wQaGNSpiNWI2anSxnfEKVr/edit?usp=sharing&ouid=104314020022454311060&rtpof=true&sd=true
+
+* If link was unsuccessful/not working please seee below:
+Artificial Intelligence collects, stores, processes vast amounts of data. With so much data being processed General Data Protection Regulations (GDPR) laws are becoming progressively more important.
+
+Responsible Artificial Intelligence is the practise of developing and deploying artificial intelligence with good intensions that will have a positive impact on businesses and customers. The more business decisions are put in the hands of AI the more important Responsible AI is to reinstall trust and confidence.
+
+A famous case where artificial intelligence failed miserably was in 2013 when IBM partnered with the University of Texas to develop a new ‘Oncology Expert Advisor (OEA)’ system with the goal to cure cancer. IBM’s role was to enable medical professionals to discover valuable information from cancer patient and research databases. In 2018 the project was reviewed by StatNews and they found that the OEA artificial intelligence system was suggesting dangerous cancer treatments. One suggestion from the system artificial intelligence was to combat severe bleeding in a patient with a drug that worsened bleeding. The projects main problem mainly came down to the IBM engineers as they trained the software on a small number of hypothetical caner patients, rather than real patient data. In 2017 Forbes reported that the project has been “benched”. Overall, the project ended up overspending $62 million and they didn’t even reach their goals.
+
+Some implications of artificial intelligence are that systems based on supervised learning could be potentially trained on past human judgement and therefore reproduce the strengths and weaknesses of the humans who made these judgements, including their tendencies of error and prejudice. For example, a recruitment system trained on the past hiring decisions will learn to mimic the managers' assessment of the suitability of candidates, rather than to directly predict an applicant's performance at work. 
+This can lead to unintended consequences like the incident with Google Photos AI.  In this case the system identified and tagged two black friends as ‘Gorillas’. Later on Twitter after the tweet went viral, Google publicly apologised.
+
+For more in depth reading on the impact of GDPR on AI see the link below: 
+
+The Impact of the General Data Protection Regulation (GDPR) on Artificial Intelligence Report 2020: https://www.europarl.europa.eu/RegData/etudes/STUD/2020/641530/EPRS_STU(2020)641530_EN.pdf 
+
+There are three ways that I have identified in which organisations can be more responsible with artificial intelligence. The first way in which cooperation’s can be more responsible is by investing in education around artificial intelligence and its capabilities. By training and informing those involved of the implications and benefits of artificial intelligence allows the best decisions around artificial intelligence can be made. However, for those important decisions to be made businesses would significantly benefit from a diverse panel that has the expertise knowledge to understand the possible consequences of artificial intelligence integrated systems. Within the process of using artificial intelligence there should be appropriate guidelines put in place to ensure quality assurance and traceability of artificial intelligence systems. 
+
+**Week 10 Exam Preperation - [Lesson Due]**
+
+**Week 11 Exam - [Due]**
+
+**Week 12 Exam Database Theory & SQL- [Lesson Due]**
+
+**Week 13 Data Fundamentals & R Programming - [Lesson Due]**
+
+**Week 14 Graduation - [Due]**
