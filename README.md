@@ -51,7 +51,7 @@ Please see link to interactive dashbaord on Tableau: https://public.tableau.com/
 * Extension Task 2 - Linear Regression With Two Variables Graph.
 ![Linear Regression with two variables Example Graph](https://user-images.githubusercontent.com/76181662/157479591-c60181ff-028a-4194-b0a8-ae864eba3f2a.jpg)
 
-**Week 9 Deep Learning and AI - [tASK 1 COMPLETED]**
+**Week 9 Deep Learning and AI - [TASK 1 COMPLETED]**
 
 * Please see link for 500 word essay on Responsible AI: https://docs.google.com/document/d/1pf6u9zN_R1wQaGNSpiNWI2anSxnfEKVr/edit?usp=sharing&ouid=104314020022454311060&rtpof=true&sd=true
 
