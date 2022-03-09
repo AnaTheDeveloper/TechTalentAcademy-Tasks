@@ -56,6 +56,7 @@ Please see link to interactive dashbaord on Tableau: https://public.tableau.com/
 * Please see link for 500 word essay on Responsible AI: https://docs.google.com/document/d/1pf6u9zN_R1wQaGNSpiNWI2anSxnfEKVr/edit?usp=sharing&ouid=104314020022454311060&rtpof=true&sd=true
 
 * If link was unsuccessful/not working please seee below:
+
 Artificial Intelligence collects, stores, processes vast amounts of data. With so much data being processed General Data Protection Regulations (GDPR) laws are becoming progressively more important.
 
 Responsible Artificial Intelligence is the practise of developing and deploying artificial intelligence with good intensions that will have a positive impact on businesses and customers. The more business decisions are put in the hands of AI the more important Responsible AI is to reinstall trust and confidence.
