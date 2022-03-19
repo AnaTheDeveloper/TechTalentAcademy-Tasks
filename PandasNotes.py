@@ -127,3 +127,105 @@ if __name__ == '__main__':
     top_ipad_filter = (largerDataSetExample["score"] > 8) & (largerDataSetExample["platform"] == "iPad")
     multipleFilters = largerDataSetExample[top_ipad_filter]
     print("Multiple filter example: \n", multipleFilters.head(3))
+
+# -----------------------------CA NOTES--------------------------------------------------------------------------------
+
+# We can also save data to a CSV, using .to_csv().
+# df.to_csv('new-csv-file.csv')
+
+# The method df.info() gives some statistics for each column.
+# The method .head() gives the first 5 rows of a DataFrame. Can also be .head(15).
+
+# Select Rows with Logic I
+# df[df.MyColumnName == desired_column_value]
+# df[(df.age < 30) | (df.name == 'Martha Jones')]
+
+# Check rows where name = a b or c
+# df[df.name.isin(['Martha Jones',
+#      'Rose Tyler',
+#      'Amy Pond'])]
+
+# If we use the command df.reset_index(), we get a new DataFrame with a new set of indices.
+# df.reset_index(drop=True)
+
+# Change string values from uppercase to lowercase
+# import string
+# df['shoe_type'] = df.shoe_type.apply(string.lower)
+
+# Let's add a column in_stock, which is True for all non-fabric shoes and False for fabric shoes.
+# df['in_stock'] = df.shoe_material.apply(lambda x: False if x == 'fabric' else True)
+
+# df['description'] = df.apply(lambda row: "{} {} bought {} {} {}"\
+#     .format(row.first_name,
+#             row.last_name,
+#             row.shoe_color,
+#             row.shoe_material,
+#             row.shoe_type),
+#     axis=1)
+
+# Add a column
+# df['Quantity'] = [100, 150, 50, 35]
+# df['Sales Tax'] = df.Price * 0.075
+
+# Performing operations
+# df['Name'] = df.Name.apply(str.upper)
+
+# Lambdas - Showing email provider
+# df['Email Provider'] = df.Email.apply(
+#     lambda x: x.split('@')[-1]
+#     )
+
+# Apply Lambda to row
+# df['Price with Tax'] = df.apply(lambda row:
+#      row['Price'] * 1.075
+#      if row['Is taxed?'] == 'Yes'
+#      else row['Price'],
+#      axis=1
+# )
+
+# Rename columns
+# df = pd.DataFrame({
+#     'name': ['John', 'Jane', 'Sue', 'Fred'],
+#     'age': [23, 29, 21, 18]
+# })
+# df.columns = ['First Name', 'Age']
+# df.rename(columns={
+#     'name': 'First Name',
+#     'age': 'Age'},
+#     inplace=True)
+
+# Aggregate functions
+
+# GENERAL FORMAT - df.column_name.command()
+
+# Command	Description
+# mean	Average of all values in column
+# std	Standard deviation
+# median	Median
+# max	Maximum value in column
+# min	Minimum value in column
+# count	Number of values in column
+# nunique	Number of unique values in column
+# unique	List of unique values in column
+
+# df.groupby('column1').column2.measurement().reset_index() or grades = df.groupby('student').grade.mean()
+
+#More complex functions
+# high_earners = df.groupby('category').wage
+#     .apply(lambda x: np.percentile(x, 75))
+#     .reset_index()
+
+# --Creating Pivot Tables-------
+# df.pivot(columns='ColumnToPivot',
+#          index='ColumnToBeRows',
+#          values='ColumnToBeValues')
+
+# # First use the groupby statement:
+# unpivoted = df.groupby(['Location', 'Day of Week'])['Total Sales'].mean().reset_index()
+# # Now pivot the table
+# pivoted = unpivoted.pivot(
+#     columns='Day of Week',
+#     index='Location',
+#     values='Total Sales')
+
+
