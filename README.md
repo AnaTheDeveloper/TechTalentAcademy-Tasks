@@ -72,11 +72,11 @@ The Impact of the General Data Protection Regulation (GDPR) on Artificial Intell
 
 There are three ways that I have identified in which organisations can be more responsible with artificial intelligence. The first way in which cooperation’s can be more responsible is by investing in education around artificial intelligence and its capabilities. By training and informing those involved of the implications and benefits of artificial intelligence allows the best decisions around artificial intelligence can be made. However, for those important decisions to be made businesses would significantly benefit from a diverse panel that has the expertise knowledge to understand the possible consequences of artificial intelligence integrated systems. Within the process of using artificial intelligence there should be appropriate guidelines put in place to ensure quality assurance and traceability of artificial intelligence systems. 
 
-**Week 10 Exam Preperation - [Lesson Due]**
+**Week 10 Exam Preperation - [Completed]**
 
-**Week 11 Exam - [Due]**
+**Week 11 Exam - [Passed]**
 
-**Week 12 Exam Database Theory & SQL- [Lesson Due]**
+**Week 12 Exam Database Theory & SQL- [Completed]**
 
 **Week 13 Data Fundamentals & R Programming - [Lesson Due]**
 
