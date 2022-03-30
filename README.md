@@ -76,7 +76,7 @@ There are three ways that I have identified in which organisations can be more r
 
 **Week 11 Exam - [Passed]**
 
-**Week 12 Exam Database Theory & SQL- [Lesson Due]**
+**Week 12 Exam Database Theory & SQL- [Completed]**
 
 **Week 13 Data Fundamentals & R Programming - [Lesson Due]**
 
