@@ -147,6 +147,119 @@ axis(1, at=1:12, lab=names(wholeYear))
 # Add titles 
 title(xlab= "Month", ylab = "Sales", main = "Yearly Sales Figures", col.main="Red")
 
+# Matrix
+data <- seq(1:32)
+my_matrix <- matrix(data, nrow=4, ncol=8)
+my_matrix
+
+print(data)
+
+ny <- c(3.8,5.5,9.9,15.7,21.5,26.3)
+la <- c(19.5,19.4,19.7,20.8,21.3,22.7)
+sf <- c(13.7,15.4,20.0,24.6,28.5,32.7)
+
+combined_mat <- rbind(ny,la,sf)
+combined_mat
+
+matplot(combined_mat, type ="o", pch=15, col=1:3)
+
+# Data frames
+city <- c("NY", "LA", "Vegas")
+rainfall <- c(20L, 10L, 5L)
+sun <- c(FALSE, TRUE, TRUE)
+
+frame <- data.frame(city, rainfall, sun)  
+
+print (frame)
+
+# In built data sets
+
+# gglot2 is a library that can be used to create more sophisticated plots
+# Ggplot Data sets:
+# diamonds → Prices of over 50,000 round cut diamonds
+# economics → US economic time series
+# economics_long → US economic time series
+# faithfuld → 2
+# nd density estimate of Old faithful data
+# luv_colors → ‘colors()’ in Luv space. Mapping between assorted color spaces
+# midwest → Midwest demographics
+# mpg → Fuel economy data from 1999 to 2008 for 38 popular models of cars
+# msleep → mammals sleep dataset
+# presidential → Terms of 11 presidents from Eisenhower to Obama
+# seals → Vector field of seal movements
+# txhousing → Housing sales in Texas
+
+install.packages("ggplot2")
+library(ggplot2)
+
+# Find a toy data set
+data(package = "ggplot2")
+
+# Scatter plot with qplot
+
+ggplot2::mpg
+
+qplot(data = mpg, x = cty, y = hwy, geom = "point", color = class)
+
+# Bar plot and stacked bar plot
+
+ggplot2::diamonds
+
+?diamonds
+diamonds
+
+qplot(data = diamonds, y = clarity, geom = "bar", fill = cut)
+
+# Different graphs using geom ="graphType"
+# "bar“ First tabulates frequencies of each value, then makes a barplot.
+# "histogram“ Makes a histogram.
+# "point“ Makes scatterplots. 
+# "line" Makes a line plot. 
+# "boxplot“ Makes a boxplot. 
+# "density“ Makes the density plot 
+# "smooth“ Fits a smooth line to a cloud of points and plots the output. 
+# "dotplot“ Makes a dotplot.
+
+library(tidyverse)
+mpg
+
+# Display on the x-axis and hwy on the y-axis:
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy))
+
+# Adding colour to data points
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy, color = class))
+
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy), color = "blue")
+
+
+# Changing size of data points
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy, size = class))
+
+# Aplha changes transparency of points
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy, alpha = class))
+
+# Changing data points shape
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy, shape = class))
+
+# Bar chart
+ggplot(data=mpg, aes(x=manufacturer, y=cty)) +
+  geom_bar(stat="identity", width=0.5)
+
+# Changing colors
+ggplot(data=mpg, aes(x=manufacturer, y=cty)) +
+  geom_bar(stat="identity", color="blue", fill="white")
+
+# Minimal theme + blue fill color
+ggplot(data=mpg, aes(x=manufacturer, y=cty)) +
+  geom_bar(stat="identity", fill="steelblue")+
+  theme_minimal()
+
 
 
 
