@@ -78,6 +78,8 @@ There are three ways that I have identified in which organisations can be more r
 
 **Week 12 Exam Database Theory & SQL- [Completed]**
 
-**Week 13 Data Fundamentals & R Programming - [Lesson Due]**
+**Week 13 Data Fundamentals & R Programming - [Completed]**
+
+Please see Intro.R for my notes on this session and TTA HW.R for the homework tasks.
 
 **Week 14 Graduation - [Due]**
