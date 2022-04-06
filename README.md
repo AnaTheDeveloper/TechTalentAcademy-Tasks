@@ -81,5 +81,11 @@ There are three ways that I have identified in which organisations can be more r
 **Week 13 Data Fundamentals & R Programming - [Completed]**
 
 Please see Intro.R for my notes on this session and TTA HW.R for the homework tasks.
-
+* Homework Project - In Progress
+* Homework Task 1 
+* ![HW Task 1](https://user-images.githubusercontent.com/76181662/162053714-0396947f-0068-45fe-8641-986dbf1b456a.jpg)
+* 3
+* ![HW Task 3](https://user-images.githubusercontent.com/76181662/162053777-f0b4634c-0a39-4eda-bf3d-4d6afd19cf5f.jpg)
+* 4
+* ![Hw Task 4](https://user-images.githubusercontent.com/76181662/162053790-e02e220f-d283-4e68-a9e6-d69ff8c6ebd1.jpg)
 **Week 14 Graduation - [Due]**
