@@ -81,7 +81,14 @@ There are three ways that I have identified in which organisations can be more r
 **Week 13 Data Fundamentals & R Programming - [Completed]**
 
 Please see Intro.R for my notes on this session and TTA HW.R for the homework tasks.
-* Homework Project - In Progress
+* Homework Project
+Below are some of the graphs that I created for this section:
+![HW Project Part 1](https://user-images.githubusercontent.com/76181662/162102910-657ac0ba-8048-4a8a-9f5c-3270b9304da0.jpeg)
+![HW Project Part 2](https://user-images.githubusercontent.com/76181662/162102922-f4eaf88f-4f97-4a40-bc89-a674c1f06229.jpeg)
+![HW Project Part 3](https://user-images.githubusercontent.com/76181662/162102932-2b0da675-67aa-40e1-800a-f5662274bc6d.jpeg)
+![HW Project Part 4](https://user-images.githubusercontent.com/76181662/162102942-9fc0849c-2817-40e0-b512-06ce9b484b72.jpeg)
+![HW Project Part 5](https://user-images.githubusercontent.com/76181662/162102944-20537e8d-2393-4453-b073-2b05a59057f5.jpeg)
+While I was working on this project, two of the most memorable erros that came up were "Error in +xlab("Midwest States") : invalid argument to unary operator" and "Error in loadNamespace(x) : there is no package called ‘usmap’". Both errors had me stumped but after some googling and looking at Stackoverflow I finally found out that "The '+' operator can be used at the end of lines, but not at the beginning.". In my code I had moved some of my code down a line and I had not left a + operatoer at the end of the line. After I found the solution I quickly implemented it into my code and it complied and my graph loaded. I knew the second error had something to do with how I installed the packages I was using and since I had never used Rs package manager before I googled how to install new packages in the terminal and do it manually. I then came accross the original creater of the package answering the exact question I needed on Stackoverflow. I then copied the terminal command and my graph and code complied successfully. 
 * Homework Task 1 
 * ![HW Task 1](https://user-images.githubusercontent.com/76181662/162053714-0396947f-0068-45fe-8641-986dbf1b456a.jpg)
 * 3
