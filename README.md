@@ -96,4 +96,4 @@ While I was working on this project, two of the most memorable erros that came u
 * 4
 * ![Hw Task 4](https://user-images.githubusercontent.com/76181662/162053790-e02e220f-d283-4e68-a9e6-d69ff8c6ebd1.jpg)
 
-**Week 14 Graduation - [Due]**
+**Week 14 Graduation - [Completed]**
